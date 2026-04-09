@@ -124,7 +124,7 @@ services:
     networks: [ kafka-net ]
 
   kafbat:
-    image: ghcr.io/kafbat/kafka-ui
+    image: ghcr.io/kafbat/kafka-ui:30c5bdb
     ports:
       - "8081:8080"
     depends_on:
